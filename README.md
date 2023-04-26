@@ -1,13 +1,13 @@
 # AWS Security Project
 
-Project Infrastructure
+## Project Infrastructure
 
 The Project Infrastructure was created using the CloudFormation Service via
 YAML code and few of the services were created via the Management
 console (EC2 & ALB).
 
 
-Security Features
+## Security Features
 
 1. Subnet Bifurcation into Public and Private Subnets:-
 The EC2 instance (Bastion Host) in the Public Subnet could be accessed
