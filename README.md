@@ -3,7 +3,7 @@
 ## Project Infrastructure
 
 The Project Infrastructure was created using the CloudFormation Service via
-YAML code and few of the services were created via the Management
+YAML code and few services were created via the Management
 console (EC2 & ALB).
 
 
