@@ -1,5 +1,9 @@
 # AWS Security Project
 
+## Introduction
+
+The AWS Security project involved setting up a custom Virtual Private Cloud (VPC) with multiple subnets across different availability zones (AZ). The VPC was designed with a public subnet accessible via the internet through an Application Load Balancer, and a private subnet that could only be accessed from the public subnet. The public subnet contained EC2 instances with security groups to allow inbound traffic from the internet. The private subnet contained EC2 instances with security groups that only allowed traffic from the public subnet. Additional security features were implemented to restrict traffic between the subnets and limit the types of traffic that could enter or exit the VPC. Security groups were also used to restrict access to the EC2 instances to only the necessary ports and protocols.
+
 ## Project Infrastructure
 
 The Project Infrastructure was created using the CloudFormation Service via
